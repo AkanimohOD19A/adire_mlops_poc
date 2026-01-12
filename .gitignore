@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+models/
+*.log
+mlruns/
+.zenml/
+web_crawler/
+JUNK/

@@ -1,0 +1,23 @@
+model:
+  base_model: "stabilityai/stable-diffusion-xl-base-1.0"
+  lora_rank: 4
+  resolution: 1024
+
+training:
+  num_train_steps: 800
+  learning_rate: 1e-4
+  train_batch_size: 1
+  gradient_accumulation_steps: 4
+  gradient_checkpointing: true
+  mixed_precision: "fp16"
+  use_8bit_adam: true
+
+data:
+  instance_prompt: "a photo in nigerian_adire_style"
+  validation_prompt: "a nigerian_adire_style painting of Lagos cityscape at sunset"
+  num_validation_images: 4
+
+mlops:
+  clip_score_threshold: 0.75
+  promotion_stage: "Production"
+  hf_repo_id: "amahadaniel/sdxl-lora-nigerian-adire"
