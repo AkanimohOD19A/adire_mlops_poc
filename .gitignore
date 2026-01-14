@@ -1,6 +1,9 @@
 __pycache__/
 *.pyc
-.env
+venv/
+.env/
+.venv/
+mlops_lora_venv/
 models/
 *.log
 mlruns/
