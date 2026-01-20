@@ -9,4 +9,4 @@ models/
 mlruns/
 .zenml/
 web_crawler/
-JUNK/
+JUNK/.env
