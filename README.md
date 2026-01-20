@@ -10,7 +10,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-[Demo](https://huggingface.co/AfroLogicInsect/sd-adire-demo) • [Tutorial](https://dev.to/afrologicinsect/building-production-ai-a-three-part-mlops-journey-38a8) • [Model](https://huggingface.co/AfroLogicInsect/sd-lora-nigerian-adire) • [YouTube](https://youtu.be/epmvlAeiF1Y)
+[Demo](https://huggingface.co/AfroLogicInsect/sd-adire-demo) • [Tutorial](https://dev.to/afrologicinsect/building-production-ai-a-three-part-mlops-journey-git 38a8) • [Model](https://huggingface.co/AfroLogicInsect/sd-lora-nigerian-adire) • [YouTube](https://youtu.be/epmvlAeiF1Y)
 
 </div>
 
@@ -50,7 +50,7 @@ CUDA 11.8+ (for local GPU inference)
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/mlops-sd-pipeline.git
+git clone https://github.com/AkanimohOD19A/mlops-sd-pipeline.git
 cd mlops-sd-pipeline
 
 # Create virtual environment
@@ -113,7 +113,7 @@ mlops:
   quality_threshold: 0.75
   speed_threshold: 30.0
   success_threshold: 0.95
-  hf_repo: "YOUR_USERNAME/sd-lora-custom"
+  hf_repo: "AfroLogicInsect/sd-lora-custom"
 ```
 
 ---
@@ -154,7 +154,7 @@ else:
 # Automatic HuggingFace upload
 push_to_huggingface(
     model_path="models/lora_weights",
-    repo_id="YOUR_USERNAME/sd-lora-custom"
+    repo_id="YOUR_USERNAME/sd-lora-custom" #replace with your huggingface username
 )
 ```
 
@@ -305,7 +305,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-**Your Name** - [@your_twitter](https://twitter.com/your_twitter)
+**Akan Daniel** - [@akandee_](https://twitter.com/akandee_)
 **Project Link:** [Github Repo](https://github.com/AkanimohOD19A/adire_mlops_poc)
 **Blog:** [Building Production AI](https://dev.to/afrologicinsect/building-production-ai-a-three-part-mlops-journey-38a8)
 
@@ -313,7 +313,7 @@ This project is licensed under the MIT License.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/mlops-sd-pipeline&type=Date)](https://star-history.com/#YOUR_USERNAME/mlops-sd-pipeline&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AkanimohOD19A/mlops-sd-pipeline&type=Date)](https://star-history.com/#AkanimohOD19A/mlops-sd-pipeline&Date)
 
 ---
 
